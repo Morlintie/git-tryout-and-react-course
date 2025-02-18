@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+}
+body {
+  font-family: Inter, Helvetica, sans-serif, Arial;
+  padding-top: 80px;
+}
+
+.header-journal {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.journal-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  cursor: default;
+  background-color: rgb(246, 68, 65);
+  justify-content: center;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.globe-img {
+  width: 20px;
+}
+
+.header-header {
+  color: whitesmoke;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.each-item {
+  max-width: 600px;
+  min-width: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.item-main-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-text-part {
+}
+
+.text-part-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.marker-img {
+  width: 10px;
+}
+
+.country-name {
+  color: rgb(84, 84, 84);
+  margin-left: -5px;
+  font-size: 1rem;
+}
+
+.maps-link {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.special-name {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.date {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main-main-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
